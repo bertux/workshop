@@ -43,26 +43,26 @@ tar -xvzf onboarder-linux.tar.gz
 ```
 
 ### Getting Raiden
-The fastest way to get up and running is to use the latest nightly binary releases. Just follow the instructions below.
+The fastest way to get up and running is to use the latest binary releases. Just follow the instructions below.
 
 #### macOS instructions
-- Download the [latest nightly macOS binary](https://raiden-nightlies.ams3.digitaloceanspaces.com/raiden-nightly-2018-12-06T18-08-23-v0.18.1.dev57%2Bg786347b2-macOS.zip):
+- Download the [latest released macOS binary](https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-macOS-x86_64.zip):
 ```sh
-curl -O https://raiden-nightlies.ams3.digitaloceanspaces.com/raiden-nightly-2018-12-06T18-08-23-v0.18.1.dev57%2Bg786347b2-macOS.zip
+curl -LJO https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-macOS-x86_64.zip
 ```
 - Unzip the file:
 ```sh
-unzip raiden-nightly-2018-12-06T18-08-23-v0.18.1.dev57%2Bg786347b2-macOS.zip
+unzip raiden-v0.100.2-macOS-x86_64.zip
 ```
 
 #### Linux instructions
-- Download the [latest nightly linux binary](https://raiden-nightlies.ams3.digitaloceanspaces.com/raiden-nightly-2018-12-06T17-58-34-v0.18.1.dev57%2Bg786347b2-linux.tar.gz):
+- Download the [latest released linux binary](https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-linux-x86_64.tar.gz):
 ```sh
-curl -O https://raiden-nightlies.ams3.digitaloceanspaces.com/raiden-nightly-2018-12-06T17-58-34-v0.18.1.dev57%2Bg786347b2-linux.tar.gz
+curl -LJO https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-linux-x86_64.tar.gz
 ```
 - Extract the file:
 ```sh
-tar xvzf raiden-nightly-2018-12-06T17-58-34-v0.18.1.dev57%2Bg786347b2-linux.tar.gz
+tar xvzf raiden-v0.100.2-linux-x86_64.tar.gz
 ```
 
 ### Running Raiden:
@@ -72,7 +72,7 @@ Once Raiden is installed it's time to fire it up. This is done with the followin
     --keystore-path keystore \
     --network-id kovan \
     --environment-type development \
-    --eth-rpc-endpoint https://kovan.infura.io/v3/YOUR_INFURA_TOKEN
+    --eth-rpc-endpoint https://kovan.infura.io/v3/6c73b08f3539487bb6d00fdd052992a7
 ```
 
 The node will ask you to accept the disclaimer and then ask you to choose which address you want to use. The list should only contain the one address the onboarder tool generated for you.
