@@ -4,15 +4,15 @@ This is the repo for the Raiden Network at the ETHSingapore hackathon.
 Below you'll find a list of links and information needed to get going with Raiden for the hackathon.
 
 ### Prerequisites:
-- Access to an Ethereum Kovan RPC endpoint
+- Access to an Ethereum Ropsten RPC endpoint
     - For example through [Infura](https://infura.io/login)
-- A Kovan account and KETH. We've created a small tool that generates an account and sends KETH and tokens to it with just one simple command. Please see the [onboarding section](#on-boarding) below for instructions.
+- A Ropsten account and ETH. We've created a small tool that generates an account and sends ETH and tokens to it with just one simple command. Please see the [onboarding section](#on-boarding) below for instructions.
 - The Raiden client itself. Please see the [getting Raiden](#getting-raiden) section below.
   - If you're on Windows we recommend that you install Raiden for Windows Subsystem for Linux (WSL)
 - We have created [a gitter room](https://gitter.im/raiden-network/eth-singapore-hackathon) that you can use for asking questions or find out where you can find us if you need help or want to discuss something face-to-face.
 
 ### On-boarding:
-We've created a simple script that generates a keystore / address and sends Kovan ETH and ETHSingaporeTokens to the generated address. Follow these simple steps:
+We've created a simple script that generates a keystore / address and sends Ropsten ETH and ETHSingaporeTokens to the generated address. Follow these simple steps:
 
 #### macOS instructions
 - Download the onboarder [macOS binary](https://raiden-nightlies.ams3.digitaloceanspaces.com/onboarder-macOS.zip):
