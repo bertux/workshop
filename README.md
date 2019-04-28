@@ -70,9 +70,9 @@ Once Raiden is installed it's time to fire it up. This is done with the followin
 ```sh
 ./raiden-v0.100.2-macOS-x86_64 \
     --keystore-path keystore \
-    --network-id kovan \
+    --network-id ropsten \
     --environment-type development \
-    --eth-rpc-endpoint https://kovan.infura.io/v3/995fe2eeb7454f3692f9b9cf5448a6b4
+    --eth-rpc-endpoint https://ropsten.infura.io/v3/995fe2eeb7454f3692f9b9cf5448a6b4
 ```
 
 The node will ask you to accept the disclaimer and then ask you to choose which address you want to use. The list should only contain the one address the onboarder tool generated for you.
