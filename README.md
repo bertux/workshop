@@ -46,7 +46,7 @@ tar -xvzf onboarder-linux.tar.gz
 The fastest way to get up and running is to use the latest binary releases. Just follow the instructions below.
 
 #### macOS instructions
-- Download the [latest released macOS binary](https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-macOS-x86_64.zip):
+- Download a [released macOS binary](https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-macOS-x86_64.zip):
 ```sh
 curl -LJO https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-macOS-x86_64.zip
 ```
@@ -56,7 +56,7 @@ unzip raiden-v0.100.2-macOS-x86_64.zip
 ```
 
 #### Linux instructions
-- Download the [latest released linux binary](https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-linux-x86_64.tar.gz):
+- Download a [released linux binary](https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-linux-x86_64.tar.gz):
 ```sh
 curl -LJO https://github.com/raiden-network/raiden/releases/download/v0.100.2/raiden-v0.100.2-linux-x86_64.tar.gz
 ```
@@ -66,9 +66,9 @@ tar xvzf raiden-v0.100.2-linux-x86_64.tar.gz
 ```
 
 ### Running Raiden:
-Once Raiden is installed it's time to fire it up. This is done with the following command (Please make sure the replace `raiden-binary` with the actual binary you just created above):
+Once Raiden is installed it's time to fire it up. This is done with the following command :
 ```sh
-./raiden-binary \
+./raiden-v0.100.2-macOS-x86_64 \
     --keystore-path keystore \
     --network-id kovan \
     --environment-type development \
